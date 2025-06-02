@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "utilities",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "NAME": "Eversource MA", "STATE": "MA", "CUSTOMERS": 1400000 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -71.5, 42.5 ], [ -71.0, 42.5 ], [ -71.0, 42.0 ], [ -71.5, 42.0 ], [ -71.5, 42.5 ] ] ] } },
+{ "type": "Feature", "properties": { "NAME": "National Grid MA", "STATE": "MA", "CUSTOMERS": 1200000 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -71.0, 42.5 ], [ -70.5, 42.5 ], [ -70.5, 42.0 ], [ -71.0, 42.0 ], [ -71.0, 42.5 ] ] ] } },
+{ "type": "Feature", "properties": { "NAME": "Unitil MA", "STATE": "MA", "CUSTOMERS": 100000 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -71.2, 42.8 ], [ -71.0, 42.8 ], [ -71.0, 42.6 ], [ -71.2, 42.6 ], [ -71.2, 42.8 ] ] ] } }
+]
+}
